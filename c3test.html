@@ -6,10 +6,15 @@
     </head>
     <body>
         <script>
-            var ans = window.confirm('印刷するよ')
-            if (ans == true){
-                window.print();
+            var ans = window.prompt('数を入力して');
+            ans = parseInt(ans);
+            if(ans > 5){
+                window.alert('5より大きい');
             }
+            //var ans = window.confirm('印刷するよ')
+            //if (ans == true){
+            //    window.print();
+            //}
             //window.alert('印刷するよ');
             //window.print();
         </script>
