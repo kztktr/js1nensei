@@ -6,8 +6,12 @@
     </head>
     <body>
         <script>
-            window.alert('印刷するよ');
-            window.print();
+            var ans = window.confirm('印刷するよ')
+            if (ans == true){
+                window.print();
+            }
+            //window.alert('印刷するよ');
+            //window.print();
         </script>
     </body>
 </html>
