@@ -6,15 +6,19 @@
     </head>
     <body>
         <script>
-            var sum = 0;
-            var shiki ="0";
-            for(var i = 0; i<=10; i++){
-                //sum = i
-                sum = sum + i;
-                shiki = shiki + '+' + i
-                //window.document.write('<p>' + sum + '</p>');
-                document.write('<p>' + shiki + '=' + sum + '</p>')
+            var youbi = ['日曜日', '月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日'];
+            for(var i=0; i<7; i++){
+                window.document.write('<p>' + youbi[i] + '</p>');
             }
+            //var sum = 0;
+            //var shiki ="0";
+            //for(var i = 0; i<=10; i++){
+                //sum = i
+            //    sum = sum + i;
+            //    shiki = shiki + '+' + i
+                //window.document.write('<p>' + sum + '</p>');
+            //    document.write('<p>' + shiki + '=' + sum + '</p>')
+            //}
             //var ans = window.prompt('数を入力して');
             //ans = parseInt(ans);
             //if(ans > 5){
