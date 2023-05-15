@@ -7,10 +7,13 @@
     <body>
         <script>
             var sum = 0;
+            var shiki ="0";
             for(var i = 0; i<=10; i++){
-                sum = i
-                //sum = sum + i;
-                window.document.write('<p>' + sum + '</p>');
+                //sum = i
+                sum = sum + i;
+                shiki = shiki + '+' + i
+                //window.document.write('<p>' + sum + '</p>');
+                document.write('<p>' + shiki + '=' + sum + '</p>')
             }
             //var ans = window.prompt('数を入力して');
             //ans = parseInt(ans);
